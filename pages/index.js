@@ -1,13 +1,12 @@
-import CustomLink from '../components/CustomLink';
-import Head from 'next/head';
 import MainContainer from '../components/MainContainer';
 
+import styles from '../styles/index.module.scss';
 
 const Index = () => {
     return(
         <MainContainer keywords={'mainpage'} title = {'Главная'}>
-            <div>
-                <h1>Главная страница </h1>
+            <div className={styles.wrapper}>
+                <h1>App made with Next.js</h1>
             </div>
         </MainContainer>
     )

@@ -12,8 +12,8 @@ const MainContainer = ({children, keywords, title}) => {
                 <title>{title}</title>
             </Head>
             <div className={styles.navbar}>
-            <CustomLink href={'/'} text = 'Главная'/>
-            <CustomLink href={'/users'} text = 'Пользователи'/>
+                <CustomLink href={'/'} text = 'Главная'/>
+                <CustomLink href={'/users'} text = 'Пользователи'/>
             </div> 
             <div>
                 {children}

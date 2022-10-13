@@ -1,3 +1,41 @@
-.user{
-    color:red;
+.users{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size:24px;
+        text-align: center;
+        color:#333333;
+        margin: 20px;
+    }
+    .ulist{
+        width:500px;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        line-height: 30px;
+        .user{
+            a{
+                font-size: 18px;
+                text-decoration: none;
+                color:#333333;
+                transition: .2s;
+                &:hover{
+                    font-size:19px;
+                }
+            }
+        }
+    }
+}
+.user_header{
+    font-size:24px;
+    color:#333333;
+}
+.user_name{
+    font-size: 18px;
+    color:#333333;
 }
